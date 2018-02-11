@@ -33,3 +33,8 @@ puppeteer-trace 'http://perdu.com' > trace.json
 
     -?, --help            This help
 ```
+
+## See also
+
+- [puppeteer-screenshot-cli](https://www.npmjs.com/package/puppeteer-screenshot-cli)  
+  Simple wrapper around [Puppeteer](https://github.com/GoogleChrome/puppeteer) to take screenshot from command line.
