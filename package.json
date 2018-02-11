@@ -1,0 +1,29 @@
+{
+  "name": "puppeteer-trace-cli",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "description": "Simple wrapper around Puppeteer to trace webpage from command line",
+  "repository": "github:mabhub/puppeteer-trace-cli",
+  "main": "index.js",
+  "bin": {
+    "puppeteer-trace": "./index.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "trace",
+    "cli"
+  ],
+  "author": "Benjamin Marguin <npmjs.org@ma-b.com>",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "~5.0.2",
+    "command-line-usage": "~4.1.0",
+    "puppeteer": "~1.0.0",
+    "tmp": "0.0.33"
+  },
+  "scripts": {
+    "version": "git changelog -t $npm_package_version && git add CHANGELOG.md"
+  }
+}
