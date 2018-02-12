@@ -1,6 +1,9 @@
 # Puppeteer trace CLI
 
-Simple wrapper around [Puppeteer](https://github.com/GoogleChrome/puppeteer) to trace webpage from command line.
+Simple wrapper around [Puppeteer](https://github.com/GoogleChrome/puppeteer)
+to trace webpage from command line.  
+Created trace file can be opened in Chrome DevTools or
+[timeline viewer](https://chromedevtools.github.io/timeline-viewer/).
 
 ## Usage
 
